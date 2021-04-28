@@ -28,6 +28,6 @@ export default {
 }
 .app-container {
   padding: 0 0 !important;
-  background-color: #E4F0D4 !important;
+  background-color: #fff !important;
 }
 </style>
