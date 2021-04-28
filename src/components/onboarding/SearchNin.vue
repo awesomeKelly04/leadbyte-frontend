@@ -63,11 +63,10 @@
 </template>
 
 <script>
-// import UserService from "@/services/services";
 import SubmitButton from "../ui/buttons/SubmitButton";
 import Loader from "../ui/loader/Loader";
 import {localize} from "vee-validate";
-import NinData from "/home/awesome/Downloads/data.json"
+import NinData from "/home/awesome/WebstormProjects/leadbyte/src/assets/servByte/data.json"
 
 export default {
   name: "SearchNin",
