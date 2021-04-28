@@ -8,7 +8,7 @@
               <v-card
                   class="card pa-2"
                   max-width="844"
-                  height="600"
+                  height=1000
                   :style="{'background-color': '#E4F0D4', 'background-size': 'cover'}"
               >
                 <ValidationObserver v-slot="{ handleSubmit }">
@@ -66,7 +66,7 @@
 import SubmitButton from "../ui/buttons/SubmitButton";
 import Loader from "../ui/loader/Loader";
 import {localize} from "vee-validate";
-import NinData from "/home/awesome/WebstormProjects/leadbyte/src/assets/servByte/data.json"
+import NinData from "./../../../src/assets/servByte/data.json"
 
 export default {
   name: "SearchNin",
@@ -132,7 +132,7 @@ export default {
   margin-bottom: 5px;
 }
 .component-container {
-  background-color: #E4F0D4;
+  background-color: #fff;
 }
 .row-input {
   justify-content: center;

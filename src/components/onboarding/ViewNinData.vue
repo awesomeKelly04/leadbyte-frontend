@@ -17,7 +17,7 @@
                     max-width="1000"
                     outlined
                     rounded="lg"
-                    height="600"
+                    height=1000
 
                 >
                   <ValidationObserver v-slot="{ handleSubmit }">
@@ -139,7 +139,7 @@ export default {
 
 <style scoped>
 .component-container {
-  background-color: #E4F0D4;
+  background-color: #fff;
 }
 .headline {
   line-height: 31px;
